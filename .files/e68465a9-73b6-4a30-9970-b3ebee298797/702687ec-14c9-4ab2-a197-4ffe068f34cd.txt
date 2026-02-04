@@ -1,0 +1,4 @@
+Furthermore, we have released the fundamental model inference code ( https://gith
+ub.com/deepseek-ai/DeepSeek-V3 ) and provided detailed usage guidelines ( https:
+//github.com/deepseek-ai/DeepSeek-R1) on GitHub.
+65

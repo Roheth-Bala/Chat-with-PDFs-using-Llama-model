@@ -1,0 +1,11 @@
+models (unsafe rate aound 5%); DeepSeek-R1 (with risk control), Claude-3.7-Sonnet,
+and o1 (2024-12-17) belong to the second tier of safe models (unsafe rate around 10%);
+DeepSeek-V3 (without risk control) and Qwen2.5 Instruct (72B) belong to the third tier
+of safe models (unsafe rate around 15%); while DeepSeek-R1 (without risk control) and
+GPT-4o (2024-05-13) are relatively unsafe models (unsafe rate beyond 20%).
+• Analyzing rejection rates: The base models of DeepSeek-R1 and DeepSeek-V3 have
+relatively low rejection rates but higher unsafe rates. After implementing a risk control
+system, these models show relatively low unsafe rates but higher rejection rates (around
+25%). Additionally, Claude-3.7-Sonnet achieves a good balance between user experience
+(lowest rejection rate) and model safety (unsafe rate at relatively low levels); while o1 (2024-
+12-17) demonstrates a more severe tendency to reject queries (around 50%), presumably
